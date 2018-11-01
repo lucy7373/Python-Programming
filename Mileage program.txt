@@ -1,0 +1,19 @@
+Suppose you keep track of your mileage each time you fill up.
+At your last 6 fill-ups the mileage was 65311, 65624, 65908, 66219, 66499, 66821, 67145, 67447.
+Enter these numbers into R. Use the function diff on the data.
+ What does it give? 
+find the maximum number of miles between fill-ups, the mean function to find the average number of miles and also get the minimum number of miles.
+
+a=c(65311, 65624, 65908, 66219, 66499, 66821, 67145, 67447)
+
+diff(a)
+[1] 313 284 311 280 322 324 302
+
+max(a)
+[1] 324
+
+mean(a)
+[1] 66371.75
+
+min(a)
+[1] 65311
